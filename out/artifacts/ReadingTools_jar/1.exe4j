@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="6.0.1" transformSequenceNumber="2">
+  <directoryPresets config="D:/JavaProject/ReadingTools/out/artifacts" />
+  <application name="Rt" distributionSourceDir="D:/JavaProject/ReadingTools/out/artifacts/ReadingTools_jar">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="ReadingTools" type="2" iconSet="true" iconFile="F:/图/icon类-头像/ico/favicon.ico" executableDir="." redirectStderr="true" stderrFile="error.log" stderrMode="overwrite" redirectStdout="false" stdoutFile="output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" globalSingleInstance="false" singleInstanceActivate="true" dpiAware="java9+" amd64="true">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" productName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="false" width="0" height="0" bitmapFile="" textOverlay="false">
+    <text>
+      <statusLine x="20" y="20" text="" fontSize="8" fontColor="0,0,0" bold="false" />
+      <versionLine x="20" y="40" text="version %VERSION%" fontSize="8" fontColor="0,0,0" bold="false" />
+    </text>
+  </splashScreen>
+  <java mainClass="com.Main" mainMode="1" vmParameters="-Dfile.encoding=utf-8" arguments="" allowVMPassthroughParameters="true" preferredVM="" bundleRuntime="true" minVersion="1.7" maxVersion="" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <directory location="C:/Program Files/Java/jdk-11.0.12" />
+    </searchSequence>
+    <classPath>
+      <archive location="D:/JavaProject/ReadingTools/out/artifacts/ReadingTools_jar/ReadingTools.jar" failOnError="false" />
+    </classPath>
+    <modulePath />
+    <nativeLibraryDirectories />
+    <vmOptions />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
