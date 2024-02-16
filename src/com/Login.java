@@ -1,12 +1,16 @@
 package com;
 
+import com.utils.ConnectUtil;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
+
 public class Login extends JFrame{
+
     private Login self;
     private ImageIcon imageIcon;
     private Image image;
@@ -43,14 +47,14 @@ public class Login extends JFrame{
         unLabel.setSize(60, 25);
         unLabel.setLocation(40, 40);
         unLabel.setForeground(Color.black);
-        unLabel.setFont(new Font("幼圆",Font.BOLD,15));
+        unLabel.setFont(new Font("黑体",Font.BOLD,18));
         unField.setSize(150, 35);
         unField.setLocation(100, 30);
 
         pwLabel.setSize(60, 25);
         pwLabel.setLocation(40, 100);
         pwLabel.setForeground(Color.black);
-        pwLabel.setFont(new Font("幼圆",Font.BOLD,15));
+        pwLabel.setFont(new Font("黑体",Font.BOLD,18));
         pwField.setSize(150, 35);
         pwField.setLocation(100, 95);
 
@@ -60,25 +64,32 @@ public class Login extends JFrame{
         d2.setSize(80, 35);
         d2.setLocation(185, 175);
         d2.setBackground(Color.gray);
-        dl.addActionListener(new ActionListener() {
 
+        dl.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                ConnectUtil cu=new ConnectUtil();
                 userid = unField.getText();
                 password = pwField.getText();
-                if(userid.equals("admin")&&password.equals("admin")) {
+                if (cu.compare(userid, password)) {
+                    self.setVisible(false);
+                    JOptionPane.showMessageDialog(null, "登录成功", "登录情况",JOptionPane.PLAIN_MESSAGE);
+                    new ReadingPage();
+                }
+
+//无JDBC登录
+ /*               if(userid.equals("admin")&&password.equals("admin")) {
                     self.setVisible(false);
                     // JOptionPane.showMessageDialog(null, "登录成功", "登录情况",JOptionPane.PLAIN_MESSAGE);
                     new ReadingPage();
                 } else {
                     JOptionPane.showMessageDialog(null, "账号或密码错误！", "登录情况",JOptionPane.PLAIN_MESSAGE);
-                }
+                }*/
             }
         });
         d2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null,System.getProperty("user.dir"),"路径显示",JOptionPane.WARNING_MESSAGE);
                 unField.setText("");
                 pwField.setText("");
             }
