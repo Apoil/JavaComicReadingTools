@@ -19,7 +19,7 @@ public class ConnectUtil {
     Statement statement = null;
     ResultSet res = null;
     String driver = "com.mysql.cj.jdbc.Driver";
-    String url = "jdbc:mysql://demo.ioveyou.love:3306/users?useUnicode=true&useSSL=false&serverTimezone=UTC&characterEncoding=utf-8";;
+    String url = "jdbc:mysql://localhost:3306/users?useUnicode=true&useSSL=false&serverTimezone=UTC&characterEncoding=utf-8";;
     String name = "users";
     String passwd = "zzs123";
 
