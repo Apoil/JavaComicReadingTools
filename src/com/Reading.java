@@ -13,6 +13,8 @@ public class Reading extends JFrame {
     private String[] context;
     private JLabel imgLabel;
     private JFrame frame;
+    public int Ihight;
+    public int Iwidth;
 
 
     public Reading(String[] file) {
@@ -33,18 +35,32 @@ public class Reading extends JFrame {
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
                 if (context != null && page >= 0 && page < context.length) {
-                    try {
-                       BufferedImage image = ImageIO.read(new File(context[page]));
+                    String str = new File(context[page]).toString();
+
+                    Image scaledImage = Catalogue.createReadingImage(str).getImage();
+
+
+
+                    g.drawImage(scaledImage, 0, 0, this);
+
+//原
+/*                    try {
+                BufferedImage image = ImageIO.read(new File(context[page]));
                         Image scaledImage = image.getScaledInstance(getWidth(), getHeight(), Image.SCALE_SMOOTH);
                         g.drawImage(scaledImage, 0, 0, this);
                     } catch (IOException e) {
                         e.printStackTrace();
-                    }
+                    }*/
+
                 }
             }
         };
 
-        imgLabel.setPreferredSize(new Dimension(1280, 875));
+
+        Image FirstImage = Catalogue.createReadingImage(new File(context[0]).toString()).getImage();
+        Iwidth=FirstImage.getWidth(this);
+        Ihight=FirstImage.getHeight(this);
+        imgLabel.setPreferredSize(new Dimension(Iwidth, Ihight));
         contentPane.add(imgLabel, BorderLayout.CENTER);
 
         // 创建按钮面板

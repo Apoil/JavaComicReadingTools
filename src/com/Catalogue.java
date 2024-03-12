@@ -276,7 +276,7 @@ public class Catalogue extends JFrame {
     }
 
     //创建预览用缩放Icon，返回ImageIcon类型（600x600
-    private static ImageIcon createShowIcon(String filePath) {
+    public static ImageIcon createShowIcon(String filePath) {
         File file = new File(filePath);
         if (file.exists() && !file.isDirectory()) {
             try {
@@ -287,6 +287,42 @@ public class Catalogue extends JFrame {
                 // 根据图像的宽高比来设置新的尺寸
                 int newWidth = 600;
                 int newHeight = 600;
+                if (width > height) {
+                    // 宽度大于高度，设置宽度为600，按比例计算高度
+                    newHeight = (int) Math.round((double) newWidth * height / width);
+                } else if (height > width) {
+                    // 高度大于宽度，设置高度为600，按比例计算宽度
+                    newWidth = (int) Math.round((double) newHeight * width / height);
+                }
+
+                // 创建缩放后的图像
+                Image scaledImage = image.getScaledInstance(newWidth, newHeight, Image.SCALE_SMOOTH);
+
+                // 使用缩放后的图像创建ImageIcon
+                return new ImageIcon(scaledImage);
+            } catch (IOException e) {
+                System.err.println("读取图片错误: " + filePath);
+                e.printStackTrace();
+            }
+        } else {
+            System.err.println("文件不存在: " + filePath);
+        }
+        return null;
+    }
+
+
+    //创建阅读用缩放Icon，返回ImageIcon类型（900x900
+    public static ImageIcon createReadingImage(String filePath) {
+        File file = new File(filePath);
+        if (file.exists() && !file.isDirectory()) {
+            try {
+                Image image = ImageIO.read(file);
+                int width = image.getWidth(null);
+                int height = image.getHeight(null);
+
+                // 根据图像的宽高比来设置新的尺寸
+                int newWidth = 900;
+                int newHeight = 900;
                 if (width > height) {
                     // 宽度大于高度，设置宽度为600，按比例计算高度
                     newHeight = (int) Math.round((double) newWidth * height / width);
