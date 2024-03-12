@@ -6,22 +6,55 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9692ee7e-b567-4818-9256-05dedeb5d1fa" name="Default Changelist" comment=" 完成JDBC登录,和部分美化">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mchange_commons_java_0_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Dao/Comic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/readingOnline/OnlineCatalogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/utils/DoSql.java" afterDir="false" />
+    <list default="true" id="9692ee7e-b567-4818-9256-05dedeb5d1fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_groupdocs_groupdocs_viewer_24_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ReadingTools_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ReadingTools_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadingTools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReadingTools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ReadingTools_jar/ReadingTools.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ReadingTools_jar/ReadingTools.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/utils/ConnectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReadingTools/com/utils/ConnectUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Catalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/utils/ConnectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/utils/ConnectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/META-INF/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Catalogue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Catalogue$1HoveringLabel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Catalogue$1HoveringLabel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Catalogue$1HoveringLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Catalogue$PreviewLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Catalogue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Login$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Login$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Reading$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Reading$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Reading$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/Reading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ReadingPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ReadingPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ReadingPage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ReadingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ZipImageReader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ZipImageReader$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ZipImageReader$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/ZipImageReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReadingTools/com/utils/ConnectUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Catalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dao/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Dao/Comic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Reading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ReadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ReadingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ZipImageReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ZipImageReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/readingOnline/OnlineCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readingOnline/OnlineCatalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utils/ConnectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/ConnectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/utils/DoSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/DoSql.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +77,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\20169\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2c8191k2JelawjdNgT5NRTqM6q9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,18 +99,24 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="193" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mchange-commons-java-0.2.12.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/resources/images" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\ReadingTools\src\main\resources\images" />
+      <recent name="D:\JavaProject\ReadingTools\src\main\java\resources\images" />
+      <recent name="D:\JavaProject\ReadingTools\target\classes\resources\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\ReadingTools\src\main\java\resources\images" />
+      <recent name="D:\JavaProject\ReadingTools\target\classes\com" />
       <recent name="D:\JavaProject\ReadingTools" />
       <recent name="D:\JavaProject\ReadingTools\src\META-INF" />
       <recent name="D:\JavaProject\ReadingTools\resources" />
-      <recent name="D:\JavaProject\ReadingTools\bg" />
-      <recent name="D:\JavaProject\ReadingTools\src\com" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -168,8 +214,17 @@
       <workItem from="1708246203882" duration="10392000" />
       <workItem from="1709557872253" duration="243000" />
       <workItem from="1710231537946" duration="14000" />
-      <workItem from="1710231968225" duration="2670000" />
+      <workItem from="1710231968225" duration="3130000" />
+      <workItem from="1710246263896" duration="2745000" />
     </task>
+    <task id="LOCAL-00001" summary="对读目录，打开后的阅读页面优化自适应，读zip文件暂未优化">
+      <created>1710234781494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710234781494</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,9 +233,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" 完成JDBC登录,和部分美化" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 完成JDBC登录,和部分美化" />
+    <MESSAGE value="对读目录，打开后的阅读页面优化自适应，读zip文件暂未优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="对读目录，打开后的阅读页面优化自适应，读zip文件暂未优化" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="523" y="161" key="#Project_Structure" timestamp="1710253560933">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="523" y="161" key="#Project_Structure/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710253560933" />
     <state x="735" y="368" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1708253928938">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -193,38 +253,43 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1130" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1707630444765" />
+    <state x="247" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1710251635294">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="247" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710251635294" />
     <state x="715" y="331" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1708091216386">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="715" y="331" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1708091216386" />
-    <state x="482" y="136" key="CommitChangelistDialog2" timestamp="1708095128221">
+    <state x="482" y="136" key="CommitChangelistDialog2" timestamp="1710253771129">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="482" y="136" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1708095128221" />
+    <state x="482" y="136" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710253771129" />
     <state x="751" y="213" key="FileChooserDialogImpl" timestamp="1708254515034">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="751" y="213" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1708254515034" />
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1710234447058">
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1710253761294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1569" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1708265095462" />
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710234447058" />
-    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1710234447057">
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710253761294" />
+    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1710253761294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1569" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1708265095462" />
-    <state width="1877" height="210" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710234447057" />
-    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1710234447057">
+    <state width="1877" height="210" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710253761294" />
+    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1710253761294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1569" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1708265095462" />
-    <state width="1877" height="210" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710234447057" />
-    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1710234447057">
+    <state width="1877" height="210" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710253761294" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1710253761294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1569" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1708265095462" />
-    <state width="1877" height="210" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710234447057" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710253761294" />
     <state width="1473" height="314" key="GridCell.Tab.1.bottom" timestamp="1707817387279">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -249,20 +314,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="606" y="261" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1708163443325" />
-    <state x="268" y="150" key="SettingsEditor" timestamp="1708254518202">
+    <state x="207" y="136" width="1301" height="715" key="SettingsEditor" timestamp="1710252584889">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="268" y="150" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1708254518202" />
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1710231977572">
+    <state x="207" y="136" width="1301" height="715" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710252584889" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1710246263892">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1708246204129" />
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710231977572" />
-    <state x="675" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1710234572281">
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710246263892" />
+    <state x="675" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1710234789334">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="675" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1708163424459" />
-    <state x="675" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710234572281" />
+    <state x="675" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1710234789334" />
     <state x="650" y="186" key="new project wizard" timestamp="1708170332329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

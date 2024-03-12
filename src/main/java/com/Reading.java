@@ -16,7 +16,6 @@ public class Reading extends JFrame {
     public int Ihight;
     public int Iwidth;
 
-
     public Reading(String[] file) {
         this.context = file;//存储传过来的图片路径
         this.page = 0;
@@ -36,11 +35,7 @@ public class Reading extends JFrame {
                 super.paintComponent(g);
                 if (context != null && page >= 0 && page < context.length) {
                     String str = new File(context[page]).toString();
-
                     Image scaledImage = Catalogue.createReadingImage(str).getImage();
-
-
-
                     g.drawImage(scaledImage, 0, 0, this);
 
 //原
@@ -68,7 +63,7 @@ public class Reading extends JFrame {
         //按钮事件
         JButton previousButton = new JButton("上一页");
         previousButton.addActionListener(new AbstractAction() {
-            @Override
+
             public void actionPerformed(ActionEvent actionEvent) {
                 previousPage();
             }
@@ -78,7 +73,7 @@ public class Reading extends JFrame {
         JButton nextButton = new JButton("下一页");
         //按钮事件
         nextButton.addActionListener(new AbstractAction() {
-            @Override
+
             public void actionPerformed(ActionEvent actionEvent) {
                 nextPage();
             }

@@ -4,7 +4,7 @@
     <root id="archive" name="ReadingTools.jar">
       <element id="module-output" name="ReadingTools" />
       <element id="directory" name="bg">
-        <element id="file-copy" path="$PROJECT_DIR$/src/com/bg.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/images/bg.jpg" />
       </element>
     </root>
   </artifact>

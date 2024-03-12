@@ -202,9 +202,7 @@ public class Catalogue extends JFrame {
                 showWindow.setVisible(true);
             }
 
-
         }
-
 
         // 假设你有一组图标文件路径
         String[] iconPaths =dirimges;

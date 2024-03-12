@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.groupdocs:groupdocs-viewer:24.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/groupdocs/groupdocs-viewer/24.2/groupdocs-viewer-24.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/groupdocs/groupdocs-viewer/24.2/groupdocs-viewer-24.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/groupdocs/groupdocs-viewer/24.2/groupdocs-viewer-24.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
